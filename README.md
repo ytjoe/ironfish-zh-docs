@@ -74,10 +74,21 @@ docker exec -it node bash -c "ironfish accounts:export 钱包名称"
 docker exec -it node bash -c "ironfish accounts:import"
 ```
 
-**使用ironfish deposit转账获得积分**
+**使用ironfish deposit转账获得积分 (每次0.1个iron，获得1积分)**
 
 ```shell
 docker exec -it node bash -c "ironfish deposit --confirm"
+```
+
+**托管节点获得积分 (运行12小时 10积分)**
+
+```shell
+docker exec -it node bash -c "ironfish testnet"
+
+# 执行查看以下命令Telemetry会显示为STARTED
+docker exec -it node bash -c "ironfish status"
+
+Telemetry            STARTED - 3150 <- 0 pending
 ```
 
 #### 3.4 启动miner(启动miner时设置CPU数并非越多越好，需自己测试)
