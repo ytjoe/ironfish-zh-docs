@@ -21,9 +21,6 @@
 - peak-pool.com提供的矿池
   
   - stratum://peak-pool.com:9034
-- discord用户AX、#2649提供的矿池
-  
-  - 161.97.131.247
 
 ## 3、安装教程
 
