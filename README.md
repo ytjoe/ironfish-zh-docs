@@ -21,6 +21,9 @@
 - peak-pool.com提供的矿池
   
   - stratum://peak-pool.com:9034
+- S-pool矿池（出块数排名前三）
+
+  - fish-pool-1.nashcloud.cn
 
 ## 3、安装教程
 
