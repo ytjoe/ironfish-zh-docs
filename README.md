@@ -15,7 +15,7 @@
 
 ### 2、矿池
 
-- 官方矿池
+- 官方矿池(discord MINING-POOL分组有出块详情)
   
   - pool.ironfish.network
 - peak-pool.com提供的矿池
