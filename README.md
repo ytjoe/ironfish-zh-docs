@@ -97,7 +97,7 @@ Telemetry            STARTED - 3150 <- 0 pending
 加入自己的node
 
 ```shell
-docker run -itd --name miner --net host --cpus 24 --volume /root/.miner:/root/.ironfish ghcr.io/iron-fish/ironfish:latest miners:start --threads=24 --rpc.tcp --rpc.tcp.host=<node的ip地址> --rpc.tcp.port=8001
+docker run -itd --name miner --net host --cpus 24 ghcr.io/iron-fish/ironfish:latest miners:start --threads=24 --rpc.tcp --rpc.tcp.host=<node的ip地址> --rpc.tcp.port=8001
 # 根据自己的情况设置参数
 # --cpus 24 设置cpu限制为24线程
 # miners:start --threads=24 启动miner时使用24线程
