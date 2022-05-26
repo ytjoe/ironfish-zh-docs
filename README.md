@@ -107,7 +107,7 @@ docker run -itd --name miner --net host --cpus 24 ghcr.io/iron-fish/ironfish:lat
 加入官方矿池
 
 ```shell
-docker run -itd --name miner --net host --cpus 24 --volume /root/.miner:/root/.ironfish ghcr.io/iron-fish/ironfish:latest miners:start --threads=24 --pool pool.ironfish.network --address <自己的公钥>
+docker run -itd --name miner --net host --cpus 24 ghcr.io/iron-fish/ironfish:latest miners:start --threads=24 --pool pool.ironfish.network --address <自己的公钥>
 # --pool pool.ironfish.network 加入官方矿池
 # --address <自己的公钥> 设置自己用于挖矿的公钥
 ```
