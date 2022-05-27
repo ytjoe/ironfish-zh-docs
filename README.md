@@ -25,7 +25,7 @@
 
   - fish-pool-1.nashcloud.cn
 
-## 3、安装教程 (实体环境编译源码参照 [1](https://github.com/ytQiao/ironfish-zh-docs/blob/main/%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91%E6%95%99%E7%A8%8B.md))
+## 3、安装教程 (实体环境编译源码参照 [源码编译教程](https://github.com/ytQiao/ironfish-zh-docs/blob/main/%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91%E6%95%99%E7%A8%8B.md))
 
 > 环境: Ubuntu20.04 docker
 > 
