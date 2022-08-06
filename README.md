@@ -123,6 +123,15 @@ docker pull ghcr.io/iron-fish/ironfish:latest
 docker rm -f node
 # 启动新版本node (参照3.2)
 docker run -itd --name node --net host --volume /root/.node:/root/.ironfish ghcr.io/iron-fish/ironfish:latest start --rpc.tcp --rpc.tcp.host=0.0.0.0 --rpc.tcp.port=8001
+
+# 注：更新到v0.1.41需要更新database,在启动node之前执行该命令
+docker run --rm --volume /root/.ironfish:/root/.ironfish ghcr.io/iron-fish/ironfish:latest migrations:start
+# 返回结果
+Running 3 migrations:
+  Applying 010-blockchain... OK
+  Applying 011-accounts... OK
+  Applying 012-indexer... OK
+Successfully ran 3 migrations
 ```
 
 ### 4、目前bug
